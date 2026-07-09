@@ -1,0 +1,17 @@
+{
+  "name": "chargeback-slack-agent",
+  "version": "1.0.0",
+  "description": "Slack Agent for Chargeback Disputes using MCP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.110.0",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@slack/bolt": "^3.22.0",
+    "dotenv": "^16.6.1",
+    "openai": "^6.45.0",
+    "pdfkit": "^0.19.1"
+  }
+}
